@@ -1,0 +1,25 @@
+.hero-carousel img {
+    width: 100%;
+    height: auto;
+    max-height: 550px;
+    object-fit: contain;
+    background-color: #212529;
+}
+
+.offer-carousel img {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    object-fit: contain;
+    background-color: #b02a37;
+}
+
+/* Efecto suave al pasar el mouse sobre las tarjetas de productos */
+.producto-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
